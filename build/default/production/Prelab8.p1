@@ -42,8 +42,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1239: extern volatile unsigned char ADRESH __attribute__((address(0x01E)));
 [v _ADRESH `Vuc ~T0 @X0 0 e@30 ]
 [p mainexit ]
-"44 Prelab8.c
-[; ;Prelab8.c: 44: void setup(void);
+"35 Prelab8.c
+[; ;Prelab8.c: 35: void setup(void);
 [v _setup `(v ~T0 @X0 0 ef ]
 "3388 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
 [; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3388: extern volatile unsigned char ANSEL __attribute__((address(0x188)));
@@ -375,143 +375,143 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3547: __asm("EECON2 equ 018Dh");
 [; <" EECON2 equ 018Dh ;# ">
 [v $root$_isr `(v ~T0 @X0 0 e ]
-"49 Prelab8.c
-[; ;Prelab8.c: 49: void __attribute__((picinterrupt(("")))) isr (void){
+"40 Prelab8.c
+[; ;Prelab8.c: 40: void __attribute__((picinterrupt(("")))) isr (void){
 [v _isr `(v ~T1 @X0 1 ef ]
 {
 [e :U _isr ]
 [f ]
-"50
-[; ;Prelab8.c: 50:     if(PIR1bits.ADIF){
+"41
+[; ;Prelab8.c: 41:     if(PIR1bits.ADIF){
 [e $ ! != -> . . _PIR1bits 0 6 `i -> 0 `i 139  ]
 {
-"51
-[; ;Prelab8.c: 51:         if(ADCON0bits.CHS == 0){
+"42
+[; ;Prelab8.c: 42:         if(ADCON0bits.CHS == 0){
 [e $ ! == -> . . _ADCON0bits 0 2 `i -> 0 `i 140  ]
 {
-"52
-[; ;Prelab8.c: 52:             PORTC = ADRESH;
+"43
+[; ;Prelab8.c: 43:             PORTC = ADRESH;
 [e = _PORTC _ADRESH ]
-"53
-[; ;Prelab8.c: 53:         }
+"44
+[; ;Prelab8.c: 44:         }
 }
 [e :U 140 ]
-"55
-[; ;Prelab8.c: 55:         PIR1bits.ADIF = 0;
+"46
+[; ;Prelab8.c: 46:         PIR1bits.ADIF = 0;
 [e = . . _PIR1bits 0 6 -> -> 0 `i `uc ]
-"56
-[; ;Prelab8.c: 56:     }
+"47
+[; ;Prelab8.c: 47:     }
 }
 [e :U 139 ]
-"57
-[; ;Prelab8.c: 57:     return;
+"48
+[; ;Prelab8.c: 48:     return;
 [e $UE 138  ]
-"58
-[; ;Prelab8.c: 58: }
+"49
+[; ;Prelab8.c: 49: }
 [e :UE 138 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]
-"63
-[; ;Prelab8.c: 63: void main(void) {
+"54
+[; ;Prelab8.c: 54: void main(void) {
 [v _main `(v ~T0 @X0 1 ef ]
 {
 [e :U _main ]
 [f ]
-"64
-[; ;Prelab8.c: 64:     setup();
+"55
+[; ;Prelab8.c: 55:     setup();
 [e ( _setup ..  ]
-"65
-[; ;Prelab8.c: 65:     while(1){
+"56
+[; ;Prelab8.c: 56:     while(1){
 [e :U 143 ]
 {
-"66
-[; ;Prelab8.c: 66:         if(ADCON0bits.GO == 0){
+"57
+[; ;Prelab8.c: 57:         if(ADCON0bits.GO == 0){
 [e $ ! == -> . . _ADCON0bits 1 1 `i -> 0 `i 145  ]
 {
-"67
-[; ;Prelab8.c: 67:             ADCON0bits.GO = 1;
+"58
+[; ;Prelab8.c: 58:             ADCON0bits.GO = 1;
 [e = . . _ADCON0bits 1 1 -> -> 1 `i `uc ]
-"68
-[; ;Prelab8.c: 68:         }
+"59
+[; ;Prelab8.c: 59:         }
 }
 [e :U 145 ]
-"69
-[; ;Prelab8.c: 69:     }
+"60
+[; ;Prelab8.c: 60:     }
 }
 [e :U 142 ]
 [e $U 143  ]
 [e :U 144 ]
-"70
-[; ;Prelab8.c: 70:     return;
+"61
+[; ;Prelab8.c: 61:     return;
 [e $UE 141  ]
-"71
-[; ;Prelab8.c: 71: }
+"62
+[; ;Prelab8.c: 62: }
 [e :UE 141 ]
 }
-"76
-[; ;Prelab8.c: 76: void setup(void){
+"67
+[; ;Prelab8.c: 67: void setup(void){
 [v _setup `(v ~T0 @X0 1 ef ]
 {
 [e :U _setup ]
 [f ]
-"77
-[; ;Prelab8.c: 77:     ANSEL = 0b00000001;
+"68
+[; ;Prelab8.c: 68:     ANSEL = 0b00000001;
 [e = _ANSEL -> -> 1 `i `uc ]
-"78
-[; ;Prelab8.c: 78:     ANSELH = 0;
+"69
+[; ;Prelab8.c: 69:     ANSELH = 0;
 [e = _ANSELH -> -> 0 `i `uc ]
-"82
-[; ;Prelab8.c: 82:     TRISA = 0b00000001;
+"71
+[; ;Prelab8.c: 71:     TRISA = 0b00000001;
 [e = _TRISA -> -> 1 `i `uc ]
-"84
-[; ;Prelab8.c: 84:     PORTA = 0;
+"72
+[; ;Prelab8.c: 72:     PORTA = 0;
 [e = _PORTA -> -> 0 `i `uc ]
-"86
-[; ;Prelab8.c: 86:     TRISC = 0;
+"74
+[; ;Prelab8.c: 74:     TRISC = 0;
 [e = _TRISC -> -> 0 `i `uc ]
-"87
-[; ;Prelab8.c: 87:     PORTC = 0;
+"75
+[; ;Prelab8.c: 75:     PORTC = 0;
 [e = _PORTC -> -> 0 `i `uc ]
-"91
-[; ;Prelab8.c: 91:     OSCCONbits.IRCF = 0b0110;
+"79
+[; ;Prelab8.c: 79:     OSCCONbits.IRCF = 0b0110;
 [e = . . _OSCCONbits 0 4 -> -> 6 `i `uc ]
-"92
-[; ;Prelab8.c: 92:     OSCCONbits.SCS = 1;
+"80
+[; ;Prelab8.c: 80:     OSCCONbits.SCS = 1;
 [e = . . _OSCCONbits 0 0 -> -> 1 `i `uc ]
-"95
-[; ;Prelab8.c: 95:     ADCON0bits.ADCS = 0b01;
+"83
+[; ;Prelab8.c: 83:     ADCON0bits.ADCS = 0b01;
 [e = . . _ADCON0bits 0 3 -> -> 1 `i `uc ]
-"97
-[; ;Prelab8.c: 97:     ADCON1bits.VCFG0 = 0;
+"85
+[; ;Prelab8.c: 85:     ADCON1bits.VCFG0 = 0;
 [e = . . _ADCON1bits 0 1 -> -> 0 `i `uc ]
-"98
-[; ;Prelab8.c: 98:     ADCON1bits.VCFG1 = 1;
+"86
+[; ;Prelab8.c: 86:     ADCON1bits.VCFG1 = 1;
 [e = . . _ADCON1bits 0 2 -> -> 1 `i `uc ]
-"100
-[; ;Prelab8.c: 100:     ADCON0bits.CHS = 0b0000;
+"88
+[; ;Prelab8.c: 88:     ADCON0bits.CHS = 0b0000;
 [e = . . _ADCON0bits 0 2 -> -> 0 `i `uc ]
-"101
-[; ;Prelab8.c: 101:     ADCON1bits.ADFM = 0;
+"89
+[; ;Prelab8.c: 89:     ADCON1bits.ADFM = 0;
 [e = . . _ADCON1bits 0 4 -> -> 0 `i `uc ]
-"102
-[; ;Prelab8.c: 102:     ADCON0bits.ADON = 1;
+"90
+[; ;Prelab8.c: 90:     ADCON0bits.ADON = 1;
 [e = . . _ADCON0bits 0 0 -> -> 1 `i `uc ]
-"103
-[; ;Prelab8.c: 103:     _delay((unsigned long)((40)*(4000000/4000000.0)));
+"91
+[; ;Prelab8.c: 91:     _delay((unsigned long)((40)*(4000000/4000000.0)));
 [e ( __delay (1 -> * -> -> 40 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
-"106
-[; ;Prelab8.c: 106:     PIR1bits.ADIF = 0;
+"94
+[; ;Prelab8.c: 94:     PIR1bits.ADIF = 0;
 [e = . . _PIR1bits 0 6 -> -> 0 `i `uc ]
-"107
-[; ;Prelab8.c: 107:     PIE1bits.ADIE = 1;
+"95
+[; ;Prelab8.c: 95:     PIE1bits.ADIE = 1;
 [e = . . _PIE1bits 0 6 -> -> 1 `i `uc ]
-"108
-[; ;Prelab8.c: 108:     INTCONbits.PEIE = 1;
+"96
+[; ;Prelab8.c: 96:     INTCONbits.PEIE = 1;
 [e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
-"109
-[; ;Prelab8.c: 109:     INTCONbits.GIE = 1;
+"97
+[; ;Prelab8.c: 97:     INTCONbits.GIE = 1;
 [e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
-"110
-[; ;Prelab8.c: 110: }
+"98
+[; ;Prelab8.c: 98: }
 [e :UE 146 ]
 }

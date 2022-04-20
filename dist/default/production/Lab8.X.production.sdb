@@ -11,11 +11,11 @@
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"49 C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+"40 C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
 [v _isr isr `II(v  1 e 1 0 ]
-"63
+"54
 [v _main main `(v  1 e 1 0 ]
-"76
+"67
 [v _setup setup `(v  1 e 1 0 ]
 "167 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
 [v _PORTA PORTA `VEuc  1 e 1 @5 ]
@@ -116,18 +116,18 @@
 [v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
 "3450
 [v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
-"63 C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+"54 C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
 [v _main main `(v  1 e 1 0 ]
 {
-"71
+"62
 } 0
-"76
+"67
 [v _setup setup `(v  1 e 1 0 ]
 {
-"110
+"98
 } 0
-"49
+"40
 [v _isr isr `II(v  1 e 1 0 ]
 {
-"58
+"49
 } 0

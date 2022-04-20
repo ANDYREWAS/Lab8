@@ -2648,7 +2648,12 @@ extern __bank0 __bit __timeout;
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.35\\pic\\include\\c90\\stdint.h" 1 3
 # 29 "Prelab8.c" 2
-# 44 "Prelab8.c"
+
+
+
+
+
+
 void setup(void);
 
 
@@ -2685,10 +2690,7 @@ void setup(void){
     ANSEL = 0b00000001;
     ANSELH = 0;
 
-
-
     TRISA = 0b00000001;
-
     PORTA = 0;
 
     TRISC = 0;

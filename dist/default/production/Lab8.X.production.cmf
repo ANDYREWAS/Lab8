@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
+$C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
 idloc IDLOC 5 2000 2000 4 2 1
 reset_vec CODE 0 0 0 3 2 1
 end_init CODE 0 C C 3 2 1
@@ -69,44 +69,44 @@ STRING 76-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Lab8.X.production.o
-F cinit CODE >454:C:\Users\Josea\AppData\Local\Temp\xcAs4bg.s
-F cinit CODE >457:C:\Users\Josea\AppData\Local\Temp\xcAs4bg.s
-F cinit CODE >463:C:\Users\Josea\AppData\Local\Temp\xcAs4bg.s
-F cinit CODE >465:C:\Users\Josea\AppData\Local\Temp\xcAs4bg.s
-10 cinit CODE >466:C:\Users\Josea\AppData\Local\Temp\xcAs4bg.s
-4 intentry CODE >49:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-4D text2 CODE >49:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-4D text2 CODE >50:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-53 text2 CODE >51:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-58 text2 CODE >51:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-5C text2 CODE >52:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-5E text2 CODE >55:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-5F text2 CODE >58:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-13 text1 CODE >76:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-13 text1 CODE >77:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-17 text1 CODE >78:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-18 text1 CODE >82:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-1C text1 CODE >84:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-1F text1 CODE >86:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-22 text1 CODE >87:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-25 text1 CODE >91:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-2B text1 CODE >92:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-2C text1 CODE >95:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-32 text1 CODE >97:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-35 text1 CODE >98:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-36 text1 CODE >100:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-3A text1 CODE >101:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-3D text1 CODE >102:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-40 text1 CODE >103:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-44 text1 CODE >106:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-47 text1 CODE >107:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-4A text1 CODE >108:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-4B text1 CODE >109:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-4C text1 CODE >110:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-66 maintext CODE >63:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-66 maintext CODE >64:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-6B maintext CODE >66:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
-71 maintext CODE >67:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+F cinit CODE >454:C:\Users\Josea\AppData\Local\Temp\xcAsmbc.s
+F cinit CODE >457:C:\Users\Josea\AppData\Local\Temp\xcAsmbc.s
+F cinit CODE >463:C:\Users\Josea\AppData\Local\Temp\xcAsmbc.s
+F cinit CODE >465:C:\Users\Josea\AppData\Local\Temp\xcAsmbc.s
+10 cinit CODE >466:C:\Users\Josea\AppData\Local\Temp\xcAsmbc.s
+4 intentry CODE >40:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+4D text2 CODE >40:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+4D text2 CODE >41:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+53 text2 CODE >42:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+58 text2 CODE >42:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+5C text2 CODE >43:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+5E text2 CODE >46:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+5F text2 CODE >49:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+13 text1 CODE >67:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+13 text1 CODE >68:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+17 text1 CODE >69:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+18 text1 CODE >71:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+1C text1 CODE >72:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+1F text1 CODE >74:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+22 text1 CODE >75:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+25 text1 CODE >79:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+2B text1 CODE >80:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+2C text1 CODE >83:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+32 text1 CODE >85:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+35 text1 CODE >86:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+36 text1 CODE >88:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+3A text1 CODE >89:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+3D text1 CODE >90:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+40 text1 CODE >91:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+44 text1 CODE >94:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+47 text1 CODE >95:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+4A text1 CODE >96:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+4B text1 CODE >97:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+4C text1 CODE >98:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+66 maintext CODE >54:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+66 maintext CODE >55:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+6B maintext CODE >57:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
+71 maintext CODE >58:C:\Users\Josea\MPLABXProjects\Lab8.X\Prelab8.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -127,17 +127,17 @@ __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 4010 0 ABS 0 - -
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __Hstrings 0 0 ABS 0 strings -
-___sp 0 0 STACK 2 stack C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
+___sp 0 0 STACK 2 stack C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
 _main CC 0 CODE 0 maintext dist/default/production\Lab8.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Lab8.X.production.o
-start 18 0 CODE 0 init C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
+start 18 0 CODE 0 init C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
 _OSCCONbits 8F 0 ABS 0 - dist/default/production\Lab8.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Lab8.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
@@ -145,10 +145,10 @@ __Hclrtext 0 0 ABS 0 clrtext -
 _ADRESH 1E 0 ABS 0 - dist/default/production\Lab8.X.production.o
 _ANSELH 189 0 ABS 0 - dist/default/production\Lab8.X.production.o
 __Lmaintext 0 0 ABS 0 maintext -
-___stackhi 0 0 ABS 0 - C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
-___stacklo 0 0 ABS 0 - C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
+___stackhi 0 0 ABS 0 - C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
+___stacklo 0 0 ABS 0 - C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
 start_initialization 1E 0 CODE 0 cinit dist/default/production\Lab8.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
+___int_sp 0 0 STACK 2 stack C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -191,7 +191,7 @@ _isr 9A 0 CODE 0 text2 dist/default/production\Lab8.X.production.o
 saved_w 7E 0 ABS 0 - dist/default/production\Lab8.X.production.o
 __end_of_isr CC 0 CODE 0 text2 dist/default/production\Lab8.X.production.o
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Josea\AppData\Local\Temp\xcAs4bg.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Josea\AppData\Local\Temp\xcAsmbc.o
 _PIE1bits 8C 0 ABS 0 - dist/default/production\Lab8.X.production.o
 __pmaintext CC 0 CODE 0 maintext dist/default/production\Lab8.X.production.o
 __Lcommon 0 0 ABS 0 common -
